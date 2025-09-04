@@ -1,18 +1,20 @@
 package org.example;
-import java.util.Date;
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
+
+import java.util.Date;
+
+@Data
 @Getter
 @Setter
 @ToString
-public class Student {
+public class Teacher {
     int id;
-    String firstName;
-    String lastName;
+    String name;
     Date birthDate;
     String email;
     String phoneNumber;
-    String group;
-    String tutor;
+    String specialty;
 }
