@@ -6,7 +6,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class Courses {
+public class Course {
     private int id;
     private String label;
     private int credit;

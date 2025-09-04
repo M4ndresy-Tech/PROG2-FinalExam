@@ -42,6 +42,9 @@ public class Marks {
             }
             System.out.println("Last mark for this student");
         }
+
     }
+
+
 
 }
