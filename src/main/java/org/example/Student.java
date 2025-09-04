@@ -7,12 +7,14 @@ import lombok.ToString;
 @Setter
 @ToString
 public class Student {
-    int id;
-    String firstName;
-    String lastName;
-    Date birthDate;
-    String email;
-    String phoneNumber;
-    String group;
-    String tutor;
+    private int id;
+    private String firstName;
+    private String lastName;
+    private Date birthDate;
+    private String email;
+    private String phoneNumber;
+    private String group;
+    private Tutor tutor;
+
+
 }

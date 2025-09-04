@@ -11,10 +11,10 @@ import java.util.Date;
 @Setter
 @ToString
 public class Teacher {
-    int id;
-    String name;
-    Date birthDate;
-    String email;
-    String phoneNumber;
-    String specialty;
+    private int id;
+    private String name;
+    private Date birthDate;
+    private String email;
+    private String phoneNumber;
+    private String specialty;
 }
